@@ -36,29 +36,35 @@ namespace MartinChang
             // 
             // btnFormulario1
             // 
+            this.btnFormulario1.BackColor = System.Drawing.Color.CadetBlue;
+            this.btnFormulario1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFormulario1.Location = new System.Drawing.Point(70, 40);
             this.btnFormulario1.Name = "btnFormulario1";
-            this.btnFormulario1.Size = new System.Drawing.Size(75, 23);
+            this.btnFormulario1.Size = new System.Drawing.Size(75, 43);
             this.btnFormulario1.TabIndex = 0;
             this.btnFormulario1.Text = "Fromulario 1";
-            this.btnFormulario1.UseVisualStyleBackColor = true;
+            this.btnFormulario1.UseVisualStyleBackColor = false;
             this.btnFormulario1.Click += new System.EventHandler(this.btnFormulario1_Click);
             // 
             // btnFormulario2
             // 
+            this.btnFormulario2.BackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnFormulario2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnFormulario2.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.btnFormulario2.Location = new System.Drawing.Point(70, 109);
             this.btnFormulario2.Name = "btnFormulario2";
-            this.btnFormulario2.Size = new System.Drawing.Size(75, 23);
+            this.btnFormulario2.Size = new System.Drawing.Size(75, 43);
             this.btnFormulario2.TabIndex = 1;
             this.btnFormulario2.Text = "Formulario 2";
-            this.btnFormulario2.UseVisualStyleBackColor = true;
+            this.btnFormulario2.UseVisualStyleBackColor = false;
             this.btnFormulario2.Click += new System.EventHandler(this.btnFormulario2_Click);
             // 
             // btnFormulario3
             // 
+            this.btnFormulario3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnFormulario3.Location = new System.Drawing.Point(70, 177);
             this.btnFormulario3.Name = "btnFormulario3";
-            this.btnFormulario3.Size = new System.Drawing.Size(75, 23);
+            this.btnFormulario3.Size = new System.Drawing.Size(75, 39);
             this.btnFormulario3.TabIndex = 2;
             this.btnFormulario3.Text = "Formulario 3";
             this.btnFormulario3.UseVisualStyleBackColor = true;
@@ -68,6 +74,7 @@ namespace MartinChang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.SlateGray;
             this.ClientSize = new System.Drawing.Size(213, 253);
             this.Controls.Add(this.btnFormulario3);
             this.Controls.Add(this.btnFormulario2);

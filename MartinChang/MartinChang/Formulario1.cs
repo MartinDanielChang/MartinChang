@@ -27,20 +27,20 @@ namespace MartinChang
 
 
             int num = 1;
+            int capital = 200000;
             for (int fila = 0; fila < 12; fila++, ++num )
                 {
-                
-                
-                double interesFinal = InteresMensual(num);
+                double interesFinal = InteresMensual(num, capital);
                 lbMes.Items.Add(vectorMes[fila]  + ":  " + "    " + interesFinal);
-                    
+                capital = capital + Convert.ToInt32(interesFinal);
             }
         }
 
         //Funcion
-        private double InteresMensual(int n1)
+        private double InteresMensual(int n1, int n2)
         {
-            double interes = .015 * 200000 * n1 ;
+            
+            double interes = .015 * n2 * n1 ;
 
             return interes;
         }
